@@ -1,0 +1,29 @@
+{
+    "expo": {
+      "name": "KubeGitLearn",
+      "slug": "kubegitlearn",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "userInterfaceStyle": "light",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#1E293B"
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "com.example.kubegitlearn"
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/icon.png",
+          "backgroundColor": "#1E293B"
+        },
+        "package": "com.example.kubegitlearn"
+      }
+    }
+  }

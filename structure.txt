@@ -1,0 +1,24 @@
+/learncliapp/
+├── App.js
+├── app.json
+├── babel.config.js
+├── package.json
+├── assets/
+│   ├── icon.png
+│   └── splash.png
+├── src/
+│   ├── api/
+│   │   └── apiService.js
+│   ├── components/
+│   │   ├── ChatMessage.js
+│   │   ├── CommandInput.js
+│   │   ├── TerminalOutput.js
+│   │   └── TopicSelector.js
+│   ├── screens/
+│   │   ├── ChatScreen.js
+│   │   ├── TerminalScreen.js
+│   │   └── TopicScreen.js
+│   ├── navigation/
+│   │   └── AppNavigator.js
+│   └── utils/
+│       └── constants.js
