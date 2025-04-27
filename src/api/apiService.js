@@ -1,6 +1,9 @@
 const API_URL = 'http://10.0.2.2:8000'; // Use this for Android emulator
 // const API_URL = 'http://localhost:8000'; // Use this for iOS simulator
 
+// For Expo Go: using physical ios device connected to same network
+//const API_URL = 'http://IP:PORT';
+
 export const fetchTopics = async () => {
   try {
     const response = await fetch(`${API_URL}/chat/topics`);
